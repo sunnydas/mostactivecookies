@@ -7,6 +7,8 @@ Parse a cookie file and print the most active cookies for a  given day
 
 # Steps to run
 
+Linux/Cygwin:
+
 `./most_active_cookie <FILE_NAME> -d <DAY>`
 
 Example:
