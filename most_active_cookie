@@ -11,7 +11,7 @@ if [[ -n "$JAVA_HOME" ]] && [[ -x "$JAVA_HOME/bin/java" ]];  then
   ## Proxy requests directly to Java application   
   java -jar "$APP_JAR_PATH" $1 $2 $3    
 else
-    echo "Java runtime path not defined.Please set JRE path."
+    echo "Java runtime path not defined.Please set proper JRE path."
 fi
 }
 
