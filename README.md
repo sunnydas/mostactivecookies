@@ -17,7 +17,7 @@ Example:
 
 Windows:
 
-`java -jar <JAR_FILE_NAME> <FILE_NAME> -d <DAY>``
+`java -jar <JAR_FILE_NAME> <FILE_NAME> -d <DAY>`
 
 Example:
 
