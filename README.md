@@ -11,7 +11,7 @@ Parse a cookie file and print the most active cookies for a  given day
 
 Example:
 
-`./most_active_cookie cookie.log -d 2018-12-08`
+`./most_active_cookie cookie_log.csv -d 2018-12-08`
 
 # Remarks
   1. Tested on Cygwin 
