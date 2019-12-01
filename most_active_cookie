@@ -1,0 +1,19 @@
+#!/bin/sh
+
+process(){
+file_name=$1
+switch=$2
+date_param=$3
+if [ -z "$APP_JAR_PATH" ]; then
+  APP_JAR_PATH="./build/libs/MostActiveCookie-1.0-SNAPSHOT.jar" 
+fi  
+if [[ -n "$JAVA_HOME" ]] && [[ -x "$JAVA_HOME/bin/java" ]];  then
+  ## Proxy requests directly to Java application   
+  java -jar "$APP_JAR_PATH" $1 $2 $3    
+else
+    echo "Java runtime path not defined.Please set JRE path."
+fi
+}
+
+
+process $1 $2 $3
