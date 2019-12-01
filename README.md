@@ -15,6 +15,14 @@ Example:
 
 `./most_active_cookie cookie_log.csv -d 2018-12-08`
 
+Windows:
+
+`java -jar <JAR_FILE_NAME> <FILE_NAME> -d <DAY>``
+
+Example:
+
+`java -jar  build\libs\MostActiveCookie-1.0-SNAPSHOT.jar  cookie_log.csv -d 2018-12-08`
+
 # Remarks
   1. Tested on Cygwin 
   2. "APP_JAR_PATH" property can be used to refer to the most active cookie CLI jar (By default it uses: ./build/libs/MostActiveCookie-1.0-SNAPSHOT.jar). 
